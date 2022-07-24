@@ -58,9 +58,9 @@ regularExpressionConstructor(
 ): RegExp
 
 interface RegularExpressionConstructorFlags {
-  boundary?: boolean = false,
+  boundary?: boolean = false,// Add word boundary assertions at the start and end of the pattern.
   caseInsensitive?: boolean = false,
-  exactly?: boolean = false,
+  exactly?: boolean = false,// Add begin and end line assertions at the start and end of the pattern.
   global?: boolean = false,
   multipleLine?: boolean = false,
   sticky?: boolean = false
