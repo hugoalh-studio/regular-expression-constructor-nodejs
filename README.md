@@ -58,12 +58,12 @@ regularExpressionConstructor(
 ): RegExp
 
 interface RegularExpressionConstructorFlags {
-  boundary?: boolean,
-  caseInsensitive?: boolean,
-  exactly?: boolean,
-  global?: boolean,
-  multipleLine?: boolean,
-  sticky?: boolean
+  boundary?: boolean = false,
+  caseInsensitive?: boolean = false,
+  exactly?: boolean = false,
+  global?: boolean = false,
+  multipleLine?: boolean = false,
+  sticky?: boolean = false
 }
 ```
 
