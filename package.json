@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@hugoalh/advanced-determine": "^7.1.0",
-		"@hugoalh/undefinish": "^1.0.11"
+		"@hugoalh/undefinish": "^1.0.12"
 	},
 	"engines": {
 		"node": ">= 14.15.0",
