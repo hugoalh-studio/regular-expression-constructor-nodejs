@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/regular-expression-constructor",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "A module to help for constructing regular expression.",
 	"keywords": [
 		"constructor",
@@ -20,18 +20,18 @@
 		"import": "./lib/main.mjs",
 		"require": "./lib/main.js"
 	},
-	"types": "./@types/main.d.ts",
+	"types": "./lib/main.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hugoalh-studio/regular-expression-constructor-nodejs.git"
 	},
 	"dependencies": {
-		"@hugoalh/advanced-determine": "^7.1.0",
-		"@hugoalh/undefinish": "^1.0.11"
+		"@hugoalh/advanced-determine": "^7.1.3",
+		"@hugoalh/undefinish": "^1.0.13"
 	},
 	"engines": {
-		"node": ">= 14.15.0",
-		"npm": ">= 6.14.8"
+		"node": ">= 10.13.0",
+		"npm": ">= 6.4.1"
 	},
 	"private": false
 }

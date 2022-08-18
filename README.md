@@ -26,8 +26,8 @@ A NodeJS module to help for constructing regular expression.
 
 #### Install
 
-- NodeJS >= v14.15.0
-- NPM >= v6.14.8
+- NodeJS >= v10.13.0
+- NPM >= v6.4.1
 
 ```sh
 npm install @hugoalh/regular-expression-constructor
@@ -60,6 +60,7 @@ interface RegularExpressionConstructorFlags {
   caseInsensitive?: boolean = false,
   exactly?: boolean = false,// Add begin and end line assertions at the start and end of the pattern.
   global?: boolean = false,
+  indices?: boolean = false,
   multipleLine?: boolean = false,
   sticky?: boolean = false
 }

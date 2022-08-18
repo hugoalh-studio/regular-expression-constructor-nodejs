@@ -8,6 +8,7 @@ export = regularExpressionConstructor;
  * @param {boolean} [flags.caseInsensitive=false] Regular expression with case insensitive support.
  * @param {boolean} [flags.exactly=false] Regular expression with exactly support.
  * @param {boolean} [flags.global=false] Regular expression with global support.
+ * @param {boolean} [flags.indices=false] Regular expression with indices support.
  * @param {boolean} [flags.multipleLine=false] Regular expression with multiple line support.
  * @param {boolean} [flags.sticky=false] Regular expression with sticky support.
  * @returns {RegExp} Pattern's regular expression.
