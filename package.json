@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@hugoalh/advanced-determine": "^7.2.0",
-		"@hugoalh/undefinish": "^1.0.16"
+		"@hugoalh/undefinish": "^1.0.17"
 	},
 	"devDependencies": {
 		"eslint": "^8.27.0",
